@@ -7,8 +7,13 @@
     
     
     <p class="winSize"> </p>
+   <div class="reload-button" style="height:100px; width: 50px; position:absolute; top: 70%; left:80%; color: grey; " onclick="reloadTap()"> reload </div>
    <script> 
     document.querySelector(".winSize").textContent = 'Width: ' + innerWidth + ' Height: ' + innerHeight;
+    function reloadTap(){
+location.reload();
+
+}
    </script>
   </body>
 </html>
